@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einkaufswagen</title>
+    <link rel="stylesheet" href="Einkaufswagen_style.css">
+</head>
+<body>
+    <div id="cart-container">
+        <h1>Einkaufswagen</h1>
+        <table id="cart-items">
+            <thead>
+                <tr>
+                    <th>Produkt</th>
+                    <th>Preis</th>
+                    <th>Menge</th>
+                    <th>Gesamt</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Produkte werden hier dynamisch hinzugefügt -->
+            </tbody>
+        </table>
+        <div id="cart-subtotal">Gesamtsumme: 0 EUR</div>
+        <div id="shipping-cost">Versandkosten: 0 EUR</div>
+        <div id="cart-total">Gesamtbetrag: 0 EUR</div>
+
+        <div id="coupon-section">
+            <input type="text" id="coupon-input" placeholder="Gutscheincode eingeben">
+            <button id="apply-coupon-btn">Anwenden</button>
+            <div id="coupon-msg"></div>
+        </div>
+
+        <div id="shipping-section">
+            <h3>Versandoptionen</h3>
+            <label for="standard-shipping">Standardversand</label>
+            <input type="radio" name="shipping-option" id="standard-shipping" value="standard" checked>
+            <label for="express-shipping">Expressversand</label>
+            <input type="radio" name="shipping-option" id="express-shipping" value="express">
+        </div>
+
+        <button id="checkout-btn">Zur Kasse</button>
+    </div>
+</body>
+</html>

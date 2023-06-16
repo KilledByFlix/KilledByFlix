@@ -1,0 +1,37 @@
+#qna-container {
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  
+  #qna-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .question {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .answer {
+    font-size: 16px;
+    color: blue;
+  }
+  
+  #add-question-container {
+    margin-top: 20px;
+  }
+  
+  #question-input {
+    width: 100%;
+  }
+  
+  #submit-question {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
